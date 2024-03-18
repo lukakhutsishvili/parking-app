@@ -6,7 +6,7 @@ const app = express();
 async function init() {
   try {
     await createTable();
-    serverStart;
+    serverStart();
   } catch (error) {
     console.log(error);
   }
