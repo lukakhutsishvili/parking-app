@@ -1,6 +1,6 @@
-import pgk from "pg";
+import pg from "pg";
 
-const { Pool } = pgk;
+const { Pool } = pg;
 
 const pool = new Pool({
   host: "dpg-cnqqs2q1hbls73dseo60-a",
